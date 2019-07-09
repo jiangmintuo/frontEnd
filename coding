@@ -1,0 +1,15 @@
+字符串反转：
+function reverse(str){
+	if(str.length){
+		return reverse(str.substr(1)) + str.substr(0,1);
+	} else {
+		return '';
+	}
+}
+reverse('asdasd')
+
+对象合并：
+function merge(arr){
+	return arr.reduce((value, curr) => {return {...value, ...curr} }, {})
+}
+merge([{x:1},{y:2}])
