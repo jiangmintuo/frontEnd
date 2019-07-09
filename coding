@@ -13,3 +13,5 @@ function merge(arr){
 	return arr.reduce((value, curr) => {return {...value, ...curr} }, {})
 }
 merge([{x:1},{y:2}])
+
+https://juejin.im/post/5d23e750f265da1b855c7bbe
